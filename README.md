@@ -3,4 +3,4 @@
 https://jenjwong.github.io/css-variables-example
 
 Updates in real-time dynamically using css variables
-![alt text](https://github.com/jenjwong/css-variables-example/screenshot.png "Venue Music App")
+![alt text](https://github.com/jenjwong/css-variables-example/blob/gh-pages/screenshot.png "CSS Variables")
