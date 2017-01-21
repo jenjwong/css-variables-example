@@ -1,0 +1,47 @@
+:root {
+  --base:#ffc600;
+  --spacing: 10px;
+  --hue: 0px;
+}
+
+body {
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: hue-rotate(var(--hue));
+}
+
+.controls > span {
+  padding: 2%;
+  flex: 1;
+}
+
+.wrapper {
+  padding-top: 5%;
+}
+
+.title {
+  padding-bottom: 2%;
+}
+
+.highlight {
+  color: var(--base);
+}
+
+.controls {
+  margin-bottom: 50px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
